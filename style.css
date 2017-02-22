@@ -1,0 +1,116 @@
+body {
+  background-color: #A8DADC;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7D7D7D;
+  line-height: 1.5em;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #457B9D;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #457B9D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1D3557;
+  text-decoration: none;
+}
+
+/* First simple components */
+
+table {
+/*  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em*/;
+  text-align: start;
+}
+
+
+.container {
+  width: 600px;
+  margin-left:  auto;
+  margin-right:  auto;
+}
+
+.card {
+  background-color: #F1FAEE;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-red {
+  background-color:  #457B9D;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.btn-red:hover {
+  background-color: #1D3557;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i {
+  font-size: 40px;
+}
+
+#img-profile {
+  width: 100px;
+  height: auto;
+  border: 3px solid #457B9D;
+}
+#movies {
+/*  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;*/
+}
+#movies img {
+  width: 100px;
+}
+#movies td {
+  padding: 10px;
+}
+
