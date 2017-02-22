@@ -1,3 +1,4 @@
+/* Here goes your CSS */
 body {
   background-color: #A8DADC;
   font-family: 'Open Sans', sans-serif;
@@ -51,9 +52,16 @@ table {
 
 
 .container {
-  width: 600px;
-  margin-left:  auto;
-  margin-right:  auto;
+
+  margin-left: 120px;
+  /*width: 600px;*/
+  /*margin-left:  auto;*/
+  /*margin-right:  auto;*/
+}
+
+.container-fluid {
+  width: 80%;
+  margin: 30px auto;
 }
 
 .card {
@@ -72,7 +80,7 @@ table {
   text-align: center;
 }
 
-.btn-red {
+.btn-blue {
   background-color:  #457B9D;
   color: white;
   font-weight: 600;
@@ -80,7 +88,7 @@ table {
   border-radius: 50px;
 }
 
-.btn-red:hover {
+.btn-blue:hover {
   background-color: #1D3557;
   color: white;
 }
@@ -113,4 +121,50 @@ table {
 #movies td {
   padding: 10px;
 }
+
+
+/*Side bar*/
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #1D3557;
+  text-align: center;
+}
+
+#sidebar li {
+  text-decoration: none;
+  padding:20px;
+}
+
+#sidebar a {
+  font-size: 25px;
+
+}
+
+#sidebar a:hover {
+  color: #A8DADC;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#content {
+  margin-left: 120px;
+}
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
 

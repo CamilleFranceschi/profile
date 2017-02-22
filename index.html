@@ -30,101 +30,121 @@
   </head>
 
   <body>
-    <div class="container">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-      <div class="card text-center">
-        <img src="images/portrait.png" class="img-circle" id="img-profile" alt="Camille Franceschi">
+    <div class="container" id ="content">
+      <div class="container-fluid">
+        <div class="card text-center" id="summary">
+          <img src="images/portrait.png" class="img-circle" id="img-profile" alt="Camille Franceschi">
 
-        <h1>Camille Franceschi</h1>
-        <h2>Student @Le Wagon</h2>
-        <p class="text-center">
-          After 3 years of M&A I got really bored and decided to learn to code @ Le Wagon to launch a startup.
-        </p>
-        <a href="https://www.lewagon.com/fr" target="_blank" class="btn-red">See for yourself</a>
+          <h1>Camille Franceschi</h1>
+          <h2>Student @Le Wagon</h2>
+          <p class="text-center">
+            After 3 years of M&A I got really bored and decided to learn to code @ Le Wagon to launch a startup.
+          </p>
+          <a href="https://www.lewagon.com/fr" target="_blank" class="btn-blue">See for yourself</a>
+        </div>
+
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-facebook"></i><br>Facebook
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-linkedin"></i><br>Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-twitter"></i><br>Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="movies">
+          <h2>My Favorite movies</h2>
+          <table>
+            <tr>
+              <td>
+                <img src="images/fightclub.png" alt="Fight Club">
+              </td>
+              <td>
+                <h3>Fight Club</h3>
+                <p>
+                  An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/kings_speech.png" alt="King's speech">
+              </td>
+              <td>
+                <h3>The King's speech</h3>
+                <p>
+                  The story of King George VI of the United Kingdom of Great Britain and Northern Ireland, his impromptu ascension to the throne and the speech therapist who helped the unsure monarch become worthy of it.
+                </p>
+              </td>
+            </tr>
+              <td>
+                <img src="images/snatch.png" alt="Snatch">
+              </td>
+              <td>
+                <h3>Snatch</h3>
+                <p>
+                  Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          <p class="text-center">
+            This page has been coded during the <a href="#" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          </p>
+          <ul class="list-inline">
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-share"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <i class="fa fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-facebook"></i><br>Facebook
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-linkedin"></i><br>Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-twitter"></i><br>Twitter
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card text-center" id="movies">
-        <h2>My Favorite movies</h2>
-        <table>
-          <tr>
-            <td>
-              <img src="images/fightclub.png" alt="Fight Club">
-            </td>
-            <td>
-              <h3>Fight Club</h3>
-              <p>
-                An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/kings_speech.png" alt="King's speech">
-            </td>
-            <td>
-              <h3>The King's speech</h3>
-              <p>
-                The story of King George VI of the United Kingdom of Great Britain and Northern Ireland, his impromptu ascension to the throne and the speech therapist who helped the unsure monarch become worthy of it.
-              </p>
-            </td>
-          </tr>
-            <td>
-              <img src="images/snatch.png" alt="Snatch">
-            </td>
-            <td>
-              <h3>Snatch</h3>
-              <p>
-                Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
-              </p>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p class="text-center">
-          This page has been coded during the <a href="#" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </p>
-        <ul class="list-inline">
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-share"></i>
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-star"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-
     </div>
   </body>
 </html>
